@@ -142,6 +142,37 @@ app.listen(port, () => {
 });
 
 
+// INSERT new data from @faker-js
+
+// Single data
+//let q = "INSERT INTO user (id, username, email, password) VALUES (?, ?, ?, ?)";  
+//let user = ["101", "Rajesh", "rajesh04@gmail.com", "1234"];
+
+// Multiple data
+//let q = "INSERT INTO user (id, username, email, password) VALUES ?" ; 
+//let users = [
+  //["101", "Rajesh", "rajesh04@gmail.com", "1234"],
+  //["102", "Ritika", "ritu26@gmail.com", "abcd"]
+//];
+
+// INSERT Data from Faker
+//let q = "INSERT INTO user (id, username, email, password) VALUES ?" ; 
+
+//let data = [];
+//for(let i=1; i<=100; i++) {
+  //data.push(getRandomUser());
+//}
+
+//try {
+    //connection.query( q, [data],  (err,result) => {
+        //if(err) throw err;
+        //console.log(result);
+    //});
+//} catch (err) {
+    //console.log(err);
+//}
+
+//connection.end();
 
 
 

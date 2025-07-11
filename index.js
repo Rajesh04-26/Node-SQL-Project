@@ -142,6 +142,7 @@ app.listen(port, () => {
 });
 
 
+
 // INSERT new data from @faker-js
 
 // Single data
